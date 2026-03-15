@@ -1,8 +1,18 @@
 # Claude Code Setup
 
-Everything I've installed and configured for Claude Code — commands, hooks, agents, plugins, and settings.
+Everything I've installed and configured for Claude Code — commands, hooks, agents, plugins, settings, and reusable templates.
 
 Tracks what's installed at `~/.claude/` so I can reproduce or roll back my setup.
+
+## Templates & Workflows
+
+| File | Purpose |
+|------|---------|
+| `CLAUDE-TEMPLATE.md` | Standard CLAUDE.md template with all sections — copy to new repo roots |
+| `CLAUDE-TEMPLATE-AGENTIC.md` | Agentic/multi-agent variant with branch workflows and Supabase patterns |
+| `BEADS-WORKFLOW.md` | Complete Beads workflow guide |
+| `.github/workflows/deploy-functions.yml` | CI for deploying Supabase Edge Functions |
+| `.github/workflows/code-review.yml` | AI-powered code review on PRs |
 
 ---
 
