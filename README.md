@@ -128,6 +128,7 @@ All part of the GSD framework:
 | `claude-md-management` | claude-plugins-official |
 | `slack` | claude-plugins-official |
 | `posthog` | claude-plugins-official |
+| `cli-anything` | cli-anything (HKUDS/CLI-Anything) |
 
 #### Blocklisted (2)
 | Plugin | Reason | Date |
@@ -135,8 +136,9 @@ All part of the GSD framework:
 | `code-review@claude-plugins-official` | Test blocker | 2026-02-11 |
 | `fizz@testmkt-marketplace` | Security test | 2026-02-12 |
 
-#### Custom Marketplace
+#### Custom Marketplaces
 - `agent-deck` from GitHub (asheshgoplani/agent-deck)
+- `cli-anything` from GitHub (HKUDS/CLI-Anything)
 
 ---
 
