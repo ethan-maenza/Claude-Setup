@@ -6,6 +6,14 @@ Tracks what's installed at `~/.claude/` so I can reproduce or roll back my setup
 
 ---
 
+## Global CLI Tools
+
+| Package | Version | Description |
+|---------|---------|-------------|
+| `@googleworkspace/cli` | 0.16.0 | Google Workspace CLI for Sheets, Docs, Drive, etc. |
+
+---
+
 ## What's Installed
 
 ### Slash Commands (`~/.claude/commands/`)
@@ -14,6 +22,7 @@ Tracks what's installed at `~/.claude/` so I can reproduce or roll back my setup
 |---------|-------------|
 | `/save-state` | Save session state (work done, uncommitted changes, next steps) to STATE.md |
 | `/start-session` | Orient at session start: reads CLAUDE.md, STATE.md, git status, asks what to work on |
+| `/skill-creator` | Create, test, and optimize Claude Code skills with eval loops and benchmarking |
 
 #### GSD Commands (`~/.claude/commands/gsd/`) — 31 total
 
